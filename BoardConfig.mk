@@ -157,6 +157,9 @@ TARGET_POWERHAL_VARIANT := qcom
 USE_DEVICE_SPECIFIC_QCOM_PROPRIETARY:= true
 USE_DEVICE_SPECIFIC_CAMERA:= true
 
+# Hardware
+BOARD_HARDWARE_CLASS := device/lge/hammerhead/cmhw
+
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
 
 # Enable Minikin text layout engine (will be the default soon)
