@@ -1,12 +1,6 @@
 [
  {
    "remote":      "github",
-   "repository":  "MrTumbles/android_vendor_lge",
-   "target_path": "vendor/lge",
-   "revision":    "lollipop"
- },
- {
-   "remote":      "github",
    "repository":  "Euphoria-OS/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
    "revision":    "lollipop"
