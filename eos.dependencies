@@ -1,8 +1,8 @@
 [
  {
    "remote":      "github",
-   "repository":  "Euphoria-OS/android_kernel_lge_hammerhead",
+   "repository":  "Euphoria-OS/android_kernel_msm",
    "target_path": "kernel/lge/hammerhead",
-   "revision":    "lollipop"
+   "revision":    "lollipop-hammerhead"
  }
 ]
