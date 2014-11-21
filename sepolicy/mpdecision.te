@@ -44,3 +44,6 @@ r_dir_file(mpdecision, system_server)
 r_dir_file(mpdecision, mediaserver)
 
 allow mpdecision self:capability sys_nice;
+
+allow mpdecision system_data_file:dir rw_dir_perms;
+allow mpdecision system_data_file:file create_file_perms;
