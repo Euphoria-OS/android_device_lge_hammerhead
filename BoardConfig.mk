@@ -132,7 +132,6 @@ BOARD_SEPOLICY_UNION += \
        radio.te \
        rild.te \
        rmt.te \
-       sdcardd.te \
        sensors.te \
        ssr.te \
        surfaceflinger.te \
