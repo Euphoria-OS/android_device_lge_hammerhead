@@ -17,8 +17,12 @@ PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="hammerhead" BUILD_FINGERPRINT="google/hammerhead/hammerhead:5.0/LRX21Q/1570415:user/release-keys" PRIVATE_BUILD_DESC="hammerhead-user 5.0 LRX21Q 1570415 release-keys"
 
-# Enable Torch
+# Torch package
 #PRODUCT_PACKAGES += Torch
+
+# TouchControl package.
+PRODUCT_PACKAGES += \
+	TouchControl
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
