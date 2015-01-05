@@ -6,8 +6,8 @@
    "revision":    "lollipop-hammerhead"
  },
  {
-   "remote":      "github",
-   "repository":  "Euphoria-OS/android_device_qcom_common",
+   "remote":      "Euphoria-OS-Legacy",
+   "repository":  "Euphoria-OS-Legacy/android_device_qcom_common",
    "target_path": "device/qcom/common",
    "revision":    "lollipop"
  }
