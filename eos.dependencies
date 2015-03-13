@@ -3,7 +3,7 @@
    "remote":      "github",
    "repository":  "Euphoria-OS/android_kernel_msm",
    "target_path": "kernel/lge/hammerhead",
-   "revision":    "lollipop-hammerhead"
+   "revision":    "lollipop-hammerhead-5.02"
  },
  {
    "remote":      "Euphoria-OS-Legacy",
