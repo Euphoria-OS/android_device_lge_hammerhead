@@ -4,11 +4,5 @@
    "repository":  "Euphoria-OS/android_kernel_msm",
    "target_path": "kernel/lge/hammerhead",
    "revision":    "lollipop-hammerhead"
- },
- {
-   "remote":      "Euphoria-OS-Legacy",
-   "repository":  "Euphoria-OS-Legacy/android_device_qcom_common",
-   "target_path": "device/qcom/common",
-   "revision":    "lollipop"
  }
 ]
