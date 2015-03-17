@@ -19,7 +19,6 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
-TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
 TARGET_NO_BOOTLOADER := true
 
@@ -122,7 +121,6 @@ BOARD_SEPOLICY_UNION += \
        device.te \
        domain.te \
        file.te \
-       healthd.te \
        hostapd.te \
        irsc_util.te \
        mediaserver.te \
@@ -136,7 +134,6 @@ BOARD_SEPOLICY_UNION += \
        sensors.te \
        ssr.te \
        surfaceflinger.te \
-       system_app.te \
        system_server.te \
        tee.te \
        thermald.te \
