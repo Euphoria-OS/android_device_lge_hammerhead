@@ -39,9 +39,10 @@
  *  dump the image to the file
  **/
 #define DUMP_TO_FILE(filename, p_addr, len) ({ \
+  int rc = 0; \
   FILE *fp = fopen(filename, "w+"); \
   if (fp) { \
-    fwrite(p_addr, 1, len, fp); \
+    rc = fwrite(p_addr, 1, len, fp); \
     fclose(fp); \
   } else { \
     CDBG_ERROR("%s:%d] cannot dump image", __func__, __LINE__); \
@@ -138,6 +139,7 @@ void mm_jpeg_test_free(buffer_test_t *p_buffer)
 
 int mm_jpeg_test_read(mm_jpeg_intf_test_t *p_obj)
 {
+  int rc = 0;
   FILE *fp = NULL;
   int file_size = 0;
   fp = fopen(p_obj->filename, "rb");
