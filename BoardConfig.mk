@@ -29,6 +29,7 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=hammerhea
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
+
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CONFIG := eos_hammerhead_defconfig
 
@@ -121,6 +122,7 @@ BOARD_SEPOLICY_UNION += \
        device.te \
        domain.te \
        file.te \
+       healthd.te \
        hostapd.te \
        irsc_util.te \
        mediaserver.te \
