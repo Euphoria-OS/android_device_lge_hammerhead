@@ -48,3 +48,5 @@ allow sensors shared_log_device:chr_file rw_file_perms;
 
 # Talk to qmuxd (qmux_radio)
 qmux_socket(sensors)
+
+allow sensors device_latency:chr_file w_file_perms;

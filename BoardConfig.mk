@@ -129,6 +129,7 @@ BOARD_SEPOLICY_UNION += \
        mediaserver.te \
        mpdecision.te \
        netmgrd.te \
+       perfd.te \
        platform_app.te \
        qmux.te \
        radio.te \

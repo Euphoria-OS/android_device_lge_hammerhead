@@ -11,9 +11,6 @@ type sensors_data_file, file_type, data_file_type;
 type time_data_file, file_type, data_file_type;
 type ramdump_data_file, file_type, data_file_type;
 
-type mpdecision_socket, file_type;
-type mpctl_data_file, file_type, data_file_type;
-
 # Persist firmware types
 type persist_file, file_type;
 type persist_bluetooth_file, file_type;
@@ -24,7 +21,14 @@ type persist_sensors_file, file_type;
 type persist_wifi_file, file_type;
 
 type sysfs_rmnet, fs_type, sysfs_type;
-type sysfs_mpdecision, fs_type, sysfs_type;
 type sysfs_surfaceflinger, fs_type, sysfs_type;
 type sysfs_smdcntl_open_timeout, fs_type, sysfs_type;
 type sysfs_hardware, fs_type, sysfs_type;
+
+#Define the files written during the operation of mpdecision
+type mpdecision_socket, file_type;
+type mpctl_data_file, file_type, data_file_type;
+type sysfs_mpdecision, fs_type, sysfs_type;
+type sysfs_rqstats, fs_type, sysfs_type;
+type sysfs_cpu_online, fs_type, sysfs_type;
+type mpctl_socket, file_type;

@@ -22,3 +22,6 @@ type drm_block_device, dev_type;
 
 # Thermal engine
 type thermal_engine_device, dev_type;
+
+# Define mpdecision device
+type device_latency, dev_type;
