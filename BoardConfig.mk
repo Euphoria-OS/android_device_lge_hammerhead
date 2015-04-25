@@ -118,6 +118,7 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_UNION += \
        app.te \
        bluetooth_loader.te \
+       bootanim.te \
        bridge.te \
        camera.te \
        device.te \
