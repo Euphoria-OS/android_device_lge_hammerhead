@@ -16,3 +16,4 @@
 
 add_lunch_combo aosp_hammerhead-userdebug
 add_lunch_combo aosp_hammerhead_fp-userdebug
+add_lunch_combo eos_hammerhead-userdebug

@@ -1,0 +1,8 @@
+[
+ {
+   "remote":      "github",
+   "repository":  "Euphoria-OS/android_kernel_msm",
+   "target_path": "kernel/lge/hammerhead",
+   "revision":    "marshmallow-6.0-hammerhead"
+ }
+]
