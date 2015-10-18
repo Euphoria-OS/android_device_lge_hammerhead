@@ -26,4 +26,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
-    vendor/eos/prebuilt/common/bootanimations/BOOTANIMATION-1080x1920.zip:system/media/bootanimation.zip
+    vendor/eos/prebuilt/common/bootanimations/BOOTANIMATION-HAMMERHEAD.zip:system/media/bootanimation.zip
